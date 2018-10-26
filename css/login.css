@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+    height:100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:none;
+}
+
+/*顶部区域*/
+.login{
+    width:100%;
+    height:0.45rem;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    margin-bottom: 0.31rem;
+}
+.login a{
+    display: flex;
+}
+.login a i{
+    font-size:0.14rem ;
+    color: #4b4b4b;
+    line-height:0.45rem ;
+    margin-left: 0.16rem;
+    margin-right: 1.42rem;
+}
+.login span{
+    font-size: 0.16rem;
+    color: #434343;
+    line-height: 0.45rem;
+}
+/*中部区域*/
+.center{
+    width:3.33rem;
+    height:1.2rem;
+    margin-left: 0.2rem;
+    color: #979797;
+    font-size: 0.14rem;
+    line-height: 0.35rem;
+    text-align: center;
+}
+.center .phone{
+    height: 0.42rem;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 0.18rem;
+}
+.phone input{
+    border: 0;
+    width:2.4rem;
+    height:0.35rem;
+}
+.phone span{
+    display: inline-block;
+    border: 2px solid #c8c8c8;
+    width:0.84rem;
+    height:0.35rem;
+    border-radius: 0.05rem;
+    text-align: center;
+}
+.center .code{
+    height: 0.4rem;
+    padding-top: 0.2rem;
+    border-bottom: 1px solid #eeeeee;
+}
+.code input{
+    width:3.33rem;
+    height:0.35rem;
+    border: 0;
+}
+.center .agreement{
+    height:0.65rem;
+    padding-top: 0.4rem;
+}
+.agreement .agre{
+    height:0.44rem;
+    display: flex;
+}
+.agreement .agre .circle{
+    display: inline-block;
+    width:0.15rem;
+    height:0.15rem;
+    border:3px solid #e8e8e8;
+    border-radius: 50%;
+    margin-top: 0.04rem;
+    margin-right: 0.06rem;
+}
+.agreement .agre .agre_mes{
+    font-size:0.12rem ;
+    color: #9b9b9b;
+    line-height: 0.15rem;
+}
+.agreement .agre .agre_mes span{
+    color: #d56495;
+    text-decoration: underline;
+}
+.center button{
+    border: 0;
+    display: inline-block;
+    width:3.33rem;
+    height:0.42rem;
+    background: #c6c6c6;
+    border-radius: 0.04rem;
+    font-size: 0.18rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.42rem;
+}
+.center .lines{
+    width:3.33rem;
+    height:0.03rem;
+    background: #f1f1f1;
+    margin-top: 1.3rem;
+    position:relative ;
+    display: flex;
+}
+.lines .other{
+    width:0.72rem;
+    height:0.15rem;
+    padding: 0 0.12rem;
+    background: #ffffff;
+    position: absolute;
+    top:-0.07rem;
+    left:1.15rem;
+    display: flex;
+    text-align: center;
+}
+.other span{
+    font-size: 0.11rem;
+    line-height: 0.15rem;
+    color:#a5a5a5 ;
+}
+.center .weixin{
+    width:0.568rem;
+    height:0.8rem;
+    margin-top: 0.31rem;
+    margin-left: 1.35rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    align-items: center;
+}
+.weixin i{
+    font-size: 0.51rem;
+    color: #0fba1a;
+}
+.weixin .wx{
+    font-size: 0.11rem;
+    line-height: 0.13rem;
+    color: #c2c2c2;
+}
+.center p{
+    font-size: 0.1rem;
+    color: #b7b7b7;
+    line-height: 0.1rem;
+    margin-top:0.27rem ;
+    margin-bottom: 0.27rem;
+}

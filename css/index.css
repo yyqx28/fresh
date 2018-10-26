@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+    height:100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:none;
+}
+/*顶部区域*/
+.top{
+    width:100%;
+    height:0.5rem;
+    display: -webkit-flex;
+    justify-content: center;
+
+}
+.top .top_left{
+    width:1.5rem;
+    height:0.32rem;
+    margin-top: 0.12rem;
+}
+.top .top_left h3{
+    font-size: 0.15rem;
+    color: #df6093;
+    line-height: 0.32rem;
+}
+.top .top_left span{
+    width:0.67rem;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.13rem;
+    line-height:0.32rem ;
+    color:#000;
+    margin-left: 0.05rem;
+    margin-right: 0.06rem;
+}
+.top .top_left i{
+    color: #000;
+    font-size: 0.09rem;
+}
+.top .top_right{
+    width:1.87rem;
+    height:0.32rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    display: flex;
+    margin-left: 0.06rem;
+    margin-top: 0.12rem;
+}
+.top .top_right a{
+    display:inline-block ;
+    width:1.74rem;
+    height:0.32rem;
+    border-radius: 0.12rem;
+    background: #f6f6f6;
+    font-size:0.13rem;
+    color: #8e8e8e;
+    line-height: 0.32rem;
+    padding-left: 0.13rem;
+}
+/*中部区域*/
+.center{
+    width:100%;
+    -webkit-flex:1;
+    overflow-y:auto;
+    overflow-x: hidden;
+    margin-top: 0.05rem;
+}
+.center::-webkit-scrollbar{
+    display: none;
+}
+.center .imgs{
+    width:3.45rem;
+    height:1.2rem;
+    margin-left: 0.16rem;
+}
+.imgs img{
+    width:3.45rem;
+    height:1.2rem;
+}
+.center .safe{
+    width:100%;
+    height:0.4rem;
+    display: flex;
+    -webkit-justify-content: space-around;
+}
+.safe img{
+    width:0.06rem;
+    height:0.06rem;
+    margin-right: 0.03rem;
+}
+.safe span{
+    font-size: 0.1rem;
+    color: #909090;
+    line-height: 0.4rem;
+}
+.center .vip{
+    width:100%;
+    height:0.85rem;
+    display: flex;
+    -webkit-justify-content: space-around;
+}
+.vip .vip_list{
+    width:0.51rem;
+    height:0.85rem;
+    font-size: 0.1rem;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    text-align: center;
+}
+.vip_list img{
+    width:0.51rem;
+    height:0.51rem;
+}
+.center .advert{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    -webkit-justify-content:center;
+    margin-top: 0.1rem;
+    margin-bottom: 0.15rem;
+}
+.advert img{
+    width:1.7rem;
+    height:0.8rem;
+}
+.advert img:nth-child(1){
+    margin-right: 0.03rem;
+}
+.advert img:nth-child(2){
+    margin-left: 0.03rem;
+}
+.center .classify{
+    width:100%;
+    padding: 0 0.1rem;
+    overflow: hidden;
+    margin-left: -0.1rem;
+    height: 0.98rem;
+    background: #fcfcfc;
+    box-shadow: inset 0 5px 5px #cccccc;
+    display:flex;
+    justify-content: space-around;
+}   
+.classify .classify_list{
+    width:0.41rem;
+    height:0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.09rem;
+    color:#000000;
+    text-align: center;
+}
+.classify_list img{
+    width:0.41rem;
+    height:0.41rem;
+    margin-bottom: 0.05rem;
+}
+.center .goods{
+    width:100%;
+    background: #ffcbe2;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+
+}.goods h3{
+    font-size: 0.17rem;
+    color: #e5669e;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    margin-left: 0.2rem;
+    font-weight: 100;
+ }
+.goods .goods_lists{
+    width: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 0 0.2rem;
+}
+ .goods .goods_list{
+     width: 1.66em;
+     height:2.96rem;
+     background: #fff;
+     border-radius: 0.07rem;
+     border:1px solid #d6d3d4;
+     flex-shrink: 0;
+     margin-bottom: 0.05rem;
+ }
+.goods_list .goods_listTop{
+    width:1.66rem;
+    height:1.6rem;
+}
+.goods_listTop img{
+    width:1.5rem;
+    height:1.6rem;
+    margin-left: 0.11rem;
+}
+.goods_list .goods_listCenter{
+    width:1.54rem;
+    height:0.3rem;
+    background: #fff6f7;
+    padding-left: 0.1rem;
+}
+.goods_listCenter p{
+    font-size:0.1rem ;
+    color:#8f747a ;
+    line-height: 0.3rem;
+    width:1.36rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods_list .goods_listBottom{
+    width:1.66rem;
+    height:1.06rem;
+    padding-left: 0.1rem;
+}
+.goods_listBottom p{
+    font-size:0.1rem ;
+    color:#000000 ;
+    line-height: 0.27rem;
+    width:1.33rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods_listBottom .priceCar{
+    width:1.47rem;
+    height:0.37rem;
+    border-bottom: 1px solid #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+.priceCar span:first-child{
+    font-size: 0.1rem;
+    color: #c7718e;
+    margin-top:0.16rem;
+}
+.priceCar span:last-child{
+    width:0.31rem;
+    height:0.31rem;
+    background: #ff4993;
+    border-radius: 50%;
+    display: flex;
+}
+.priceCar span:last-child i{
+    font-size: 0.18rem;
+    line-height:0.31rem;
+    color: #fff;
+    margin-left: 0.05rem;
+}
+/*底部区域*/
+.bottom{
+    width:100%;
+    height:0.51rem;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom .bottom_list{
+    width:0.4rem;
+    height:0.51rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 0.06rem;
+}
+.bottom_list i{
+    font-size: 0.24rem;
+    color: #c6c6c6;
+}
+.bottom_list span{
+    font-size: 0.07rem;
+    color: #aaaaaa;
+}
+.bottom_list:first-child i{
+    color: #fd71c0;
+}
+.bottom_list:first-child span{
+    color: #fd71c0;
+}
+.bottom .bottom_list:nth-child(4){
+    position: relative;
+}
+.bottom_list:nth-child(4) .count{
+    position: absolute;
+    top:0.05rem;
+    left:0.25rem;
+    width:0.13rem;
+    height:0.13rem;
+}
