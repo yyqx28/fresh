@@ -1,32 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
-body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
-    margin:0;
-    padding:0;
-}
-html{
-    font-size:26.67vw;
-    height:100%;
-}
-body{
-    font-family:"微软雅黑",Arial;
-    height:100%;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-}
-body::-webkit-scrollbar{
-    display: none;
-}
-a{
-    text-decoration:none;
-}
-ul,ol{
-    list-style:none;
-}
-img{
-    border:none;
-}
+
 /*顶部区域*/
 .top{
     width:100%;
@@ -262,42 +234,9 @@ img{
     line-height:0.18rem ;
 }
 /*底部区域*/
-.bottom{
-    width:100%;
-    height:0.51rem;
-    display: flex;
-    justify-content: space-around;
-}
-.bottom .bottom_list{
-    width:0.4rem;
-    height:0.51rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding-bottom: 0.06rem;
-}
-.bottom_list i{
-    font-size: 0.24rem;
-    color: #c6c6c6;
-}
-.bottom_list span{
-    font-size: 0.07rem;
-    color: #aaaaaa;
-}
-.bottom_list:nth-child(3) i{
+a:nth-child(3) .bottom_list  i{
     color: #fd71c0;
 }
-.bottom_list:nth-child(3) span{
+a:nth-child(3) .bottom_list span{
     color: #fd71c0;
-}
-.bottom .bottom_list:nth-child(4){
-    position: relative;
-}
-.bottom_list:nth-child(4) .count{
-    position: absolute;
-    top:0.05rem;
-    left:0.25rem;
-    width:0.13rem;
-    height:0.13rem;
 }

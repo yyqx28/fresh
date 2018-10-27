@@ -1,34 +1,3 @@
-@charset "utf-8";
-/* CSS Document */
-body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
-    margin:0;
-    padding:0;
-}
-html{
-    font-size:26.67vw;
-    height:100%;
-}
-body{
-    font-family:"微软雅黑",Arial;
-    height:100%;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-
-}
-body::-webkit-scrollbar{
-    display: none;
-
-}
-a{
-    text-decoration:none;
-}
-ul,ol{
-    list-style:none;
-}
-img{
-    border:none;
-}
 
 /*中部区域*/
 .center{
@@ -281,19 +250,19 @@ img{
     margin-top: 0.16rem;
     margin-bottom: 0.14rem;
 }
-.server_list:nth-child(1) .server_listT i,
-.server_list:nth-child(2) .server_listT i,
-.server_list:nth-child(3) .server_listT i{
+a:nth-child(1) .server_list .server_listT i,
+a:nth-child(2) .server_list .server_listT i,
+a:nth-child(3) .server_list .server_listT i{
     color: #f4868a;
 }
-.server_list:nth-child(4) .server_listT i,
-.server_list:nth-child(5) .server_listT i,
-.server_list:nth-child(6) .server_listT i{
+a:nth-child(4) .server_list .server_listT i,
+a:nth-child(5) .server_list .server_listT i,
+a:nth-child(6) .server_list .server_listT i{
     color: #ffcb32;
 }
-.server_list:nth-child(7) .server_listT i,
-.server_list:nth-child(8) .server_listT i,
-.server_list:nth-child(9) .server_listT i{
+a:nth-child(7) .server_list .server_listT i,
+a:nth-child(8) .server_list .server_listT i,
+a:nth-child(9) .server_list .server_listT i{
     color: #8482ff;
 }
 .server_list .server_listB{
@@ -304,42 +273,9 @@ img{
     color:#818181 ;
 }
 /*底部区域*/
-.bottom{
-    width:100%;
-    height:0.51rem;
-    display: flex;
-    justify-content: space-around;
-}
-.bottom .bottom_list{
-    width:0.4rem;
-    height:0.51rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding-bottom: 0.06rem;
-}
-.bottom_list i{
-    font-size: 0.24rem;
-    color: #c6c6c6;
-}
-.bottom_list span{
-    font-size: 0.07rem;
-    color: #aaaaaa;
-}
-.bottom_list:nth-child(5) i{
+a:nth-child(5) .bottom_list  i{
     color: #fd71c0;
 }
-.bottom_list:nth-child(5) span{
+a:nth-child(5) .bottom_list span{
     color: #fd71c0;
-}
-.bottom .bottom_list:nth-child(4){
-    position: relative;
-}
-.bottom_list:nth-child(4) .count{
-    position: absolute;
-    top:0.05rem;
-    left:0.25rem;
-    width:0.13rem;
-    height:0.13rem;
 }

@@ -51,12 +51,6 @@ img{
     font-size: 0.07rem;
     color: #aaaaaa;
 }
-a:nth-child(1) .bottom_list  i{
-    color: #fd71c0;
-}
-a:nth-child(1) .bottom_list span{
-    color: #fd71c0;
-}
 .bottom a:nth-child(4) .bottom_list{
     position: relative;
 }
