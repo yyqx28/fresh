@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+    height:100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    background: #f4f4f2;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:none;
+}
+
+/*顶部区域*/
+.top{
+    /*height:3.2rem;*/
+    background: #ffffff;
+}
+.top .top_tit{
+    height: 0.45rem;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+}
+.top_tit span{
+    font-size:0.17rem ;
+    color: #000000;
+    line-height: 0.45rem;
+}
+.top_tit span a i{
+    font-size:0.17rem ;
+    color:#000000 ;
+    line-height:0.45rem ;
+    margin-left: 0.1rem;
+    margin-right: 1.25rem;
+}
+.top .top_logo{
+    height:1.37rem;
+    display: flex;
+    -webkit-justify-content: center;
+    align-items: center;
+}
+.top_logo .logo{
+    width:0.8rem;
+    height:0.87rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo img{
+    width:0.63rem;
+    height:0.64rem;
+    margin-left: 0.08rem;
+}
+.logo span{
+    font-size:0.11rem ;
+    color: #7a7a7a;
+    line-height:0.23rem ;
+}
+.top_list{
+    width:3.55rem;
+    height:0.45rem;
+    margin-left: 0.1rem;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    -webkit-justify-content: space-between;
+}
+.top_list:last-child{
+    border: 0;
+}
+.top_list .top_listL{
+    display:flex;
+}
+.top_listL span{
+    font-size: 0.17rem;
+    color:#3e3e3e ;
+    line-height: 0.45rem;
+}
+.top_list .top_listR{
+    display: flex;
+}
+.top_listR i{
+    font-size: 0.1rem;
+    color: #cccccc;
+    line-height: 0.45rem;
+}
+/*中部区域*/
+.center{
+    /*height:0.92rem;*/
+    background: #ffffff;
+    margin-top: 0.1rem;
+}
+/*底部区域*/
+.bottom{
+    height:1.6rem;
+    background: #ffffff;
+    margin-top: 0.1rem;
+}
+.bottom .top_listR span{
+    font-size: 0.13rem;
+    color: #9a9a9a;
+    line-height: 0.45rem;
+    margin-right: 0.1rem;
+}
+.bottom .quit{
+    width:3.55rem;
+    height:0.4rem;
+    background: #fe4990;
+    border-radius: 0.04rem;
+    border-top: 1px solid #c97fa0;
+    border-bottom: 1px solid #c97fa0;
+    margin-left: 0.1rem;
+    margin-top: 0.16rem;
+    display: flex;
+    -webkit-justify-content: center;
+}
+.quit span{
+    font-size:0.14rem ;
+    color: #ffffff ;
+    line-height: 0.4rem;
+}

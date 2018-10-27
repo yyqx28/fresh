@@ -184,10 +184,11 @@ img{
 .pricesum_right .jian{
     display: inline-block;
     width:0.14rem;
-    height:0.17rem;
+    height:0.18rem;
     border:2px solid #c8c8c8;
     border-radius: 50%;
     padding: 0  0.02rem;
+    margin-right: 0.02rem;
 }
 .pricesum_right .jian i{
     line-height: 0.17rem;
@@ -491,9 +492,68 @@ img{
     font-size: 0.15rem;
     color: #ffffff;
     line-height: 0.3rem;
-    margin-left: 0.06rem;
+    margin-left: 0.07rem;
 }
 /*底部区域*/
+.settle{
+    height:0.72rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+}
+.settle .settle_left{
+    width:3.58rem;
+    display: flex;
+}
+.settle_left .selall{
+    display: flex;
+}
+.selall span{
+    font-size:0.18rem ;
+    color: #000000;
+    line-height: 0.72rem;
+}
+.selall span i{
+    font-size:0.24rem ;
+    color: #fc3d8b;
+    line-height: 0.72rem;
+    margin-left: 0.1rem;
+}
+.settle_left .allprice{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.21rem;
+}
+.allprice p:first-child{
+    font-size: 0.18rem;
+    color: #000000;
+    margin-top: 0.14rem;
+}
+.allprice p:first-child span{
+    color:#f075a4;
+    margin-left: 0.15rem;
+}
+.allprice p:last-child{
+    font-size: 0.12rem;
+    color: #969696;
+    margin-top: 0.06rem;
+}
+.settle .settle_right{
+    width:1.8rem;
+    background: #fe4892;
+    display: flex;
+    -webkit-justify-content: center;
+}
+.settle_right span{
+    font-size: 0.17rem;
+    color: #ffffff;
+    line-height: 0.72rem;
+}
+.settle_right span img{
+    width:0.1rem;
+    height:0.12rem;
+    margin-left: 0.13rem;
+}
 .bottom{
     width:100%;
     height:0.51rem;
