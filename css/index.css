@@ -52,6 +52,9 @@
     line-height: 0.32rem;
     padding-left: 0.13rem;
 }
+.top .top_right a i{
+    vertical-align: middle;
+}
 /*中部区域*/
 .center{
     width:100%;
@@ -251,6 +254,8 @@
 /*热销明星*/
 .center .hot{
     background: #f3c9f7;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 .hot h3{
     font-size: 0.17rem;
@@ -260,10 +265,13 @@
     padding-top:0.21rem;
     padding-bottom:0 ;
 }
+.hot .tip{
+    margin-left: 0.2rem;
+}
 .hot p{
     font-size: 0.09rem;
     color:#44414c ;
-    margin-left: 0.2rem;
+    margin-left: 0.02rem;
     margin-top: 0.06rem;
     margin-bottom: 0.22rem;
 }

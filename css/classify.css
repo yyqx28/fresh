@@ -108,9 +108,21 @@ img{
     line-height: 0.41rem;
     text-align: center;
 }
+.cen_left span .block{
+    display: inline-block;
+    width:0.04rem;
+    height:0.1rem;
+    background:#fd4992;
+    float: left;
+    margin-top: 0.15rem;
+    display: none;
+}
 .cen_left span:first-child{
     background: #fff;
     color: black;
+}
+.cen_left span:first-child .block{
+    display: block;
 }
 .center .cen_right{
     width:2.38rem;
